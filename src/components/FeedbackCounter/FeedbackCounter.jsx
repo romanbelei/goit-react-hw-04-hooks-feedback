@@ -21,6 +21,8 @@ export default function Counter() {
 
       case 'bad':
         return setBad(prevState => prevState + 1);
+      default:
+        return;
     }
   };
 
